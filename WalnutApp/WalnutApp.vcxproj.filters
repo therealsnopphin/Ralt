@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="monsters">
+      <UniqueIdentifier>{6015357D-4CE2-8F88-75FB-7D306127C516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="monsters\layers">
+      <UniqueIdentifier>{3FF4B813-AB7F-26D8-B490-A9CC209B82D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="monsters\level">
+      <UniqueIdentifier>{07CF45AB-F39C-39B1-DC30-AAD7C89D1516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="monsters\network">
+      <UniqueIdentifier>{F9EFCF2D-E5E8-EE7F-0E1B-D404FA72CE8B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="monsters\view and logic">
+      <UniqueIdentifier>{AB947557-17CC-BDEE-20D6-21128C8CE4E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="monsters\layers\menulayer.h">
+      <Filter>monsters\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\layers\playlayer.h">
+      <Filter>monsters\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\level\enemy.h">
+      <Filter>monsters\level</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\level\inventory.h">
+      <Filter>monsters\level</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\level\item.h">
+      <Filter>monsters\level</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\level\player.h">
+      <Filter>monsters\level</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\level\world.h">
+      <Filter>monsters\level</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\network\SimpleUDPSocket.h">
+      <Filter>monsters\network</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\view and logic\camera.h">
+      <Filter>monsters\view and logic</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\view and logic\renderer.h">
+      <Filter>monsters\view and logic</Filter>
+    </ClInclude>
+    <ClInclude Include="monsters\view and logic\sprite.h">
+      <Filter>monsters\view and logic</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="monsters\layers\menulayer.cpp">
+      <Filter>monsters\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\layers\playlayer.cpp">
+      <Filter>monsters\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\level\enemy.cpp">
+      <Filter>monsters\level</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\level\player.cpp">
+      <Filter>monsters\level</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\level\world.cpp">
+      <Filter>monsters\level</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\view and logic\camera.cpp">
+      <Filter>monsters\view and logic</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\view and logic\renderer.cpp">
+      <Filter>monsters\view and logic</Filter>
+    </ClCompile>
+    <ClCompile Include="monsters\view and logic\sprite.cpp">
+      <Filter>monsters\view and logic</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp" />
+  </ItemGroup>
+</Project>
